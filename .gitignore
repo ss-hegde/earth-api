@@ -1,0 +1,18 @@
+# Ignore virtual environment directories
+.venv/
+
+# Ignore all the cache files and directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore the data directory
+data/
+
+# Ignore the following notebooks
+notebooks/test.ipynb
+notebooks/data_fetch_pipeline.ipynb
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
